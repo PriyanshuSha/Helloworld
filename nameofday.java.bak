@@ -1,0 +1,45 @@
+
+//useOfSwitchStatement
+
+class nameOfDay {
+
+public static void main (String args [])
+{
+
+  int day=4;
+  
+  switch (day) // it is use for switch the statements
+  {
+  
+  case 0:
+          System.out.println (" monday ");
+		  
+  case 1:
+          System.out.println (" tuesday ");
+		  
+  case 2:
+          System.out.println (" wednesday ");
+
+  case 3:
+          System.out.println (" thrusday "); 
+
+  case 4:
+          System.out.println (" friday "); 
+   
+  case 5:
+          System.out.println (" saturday "); 
+
+  case 6:
+          System.out.println (" sunday "); 
+
+  
+  default:
+          System.out.println (" invalid day ");  
+		  
+		  
+  
+  }
+
+}
+
+}
