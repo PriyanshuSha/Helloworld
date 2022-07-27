@@ -1,0 +1,28 @@
+//takeOutputFromUser
+import java.util.*;
+class scanner 
+{
+
+ public static void main (String args [])
+{
+   Scanner bs=new Scanner (System.in);
+   
+   System.out.println ("Enter a value");
+
+   int num=bs.nextInt();
+      if(num%2==0)
+	  {
+	  
+	    System.out.println (num+" number is even");
+	  
+	  }
+       else
+	   {
+	   
+	   System.out.println (num+" number is odd");
+	   
+	   }
+        bs.close();
+}
+
+}
