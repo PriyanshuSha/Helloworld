@@ -4,7 +4,7 @@
 import java.util.Scanner;                  // Scanner class 
 import static java.lang.System.*;
 class customer
-{java
+{
   public static void main (String...args)
   {
      Scanner ps=new Scanner(System.in);   // Scanner object
